@@ -30,8 +30,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
         return hourFormat + ':' + minuteFormat + ':' + secondsFormat;
     }
-
-
     function stopwatchATT() {
         const currentTime = new Date().getTime();
         const timeDiff = currentTime - startTime;

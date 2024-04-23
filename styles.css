@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.div {
+    background-color: blue;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.divCronometro {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 60px;
+}
+
+#btnStart,
+#btnStop,
+#btnReset {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#btnStart {
+    background-color: green;
+    color: white;
+}
+
+#btnStop {
+    background-color: orange;
+    color: black;
+}
+
+#btnReset {
+    background-color: red;
+    color: white;
+}
